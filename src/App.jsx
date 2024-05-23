@@ -1,4 +1,5 @@
 import React from "react";
+import GlobalStyle from "./GlobalStyle";
 import BoxContainer from "./components/BoxContainer";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   // TODO: GlobalStyle 컴포넌트를 만들고 styled-reset 패키지로 스타일 초기화하고 App 컴포넌트에 적용해 보세요.
   return (
     <div>
+      <GlobalStyle />
       <h1>Clickable Boxes</h1>
       <BoxContainer />
     </div>
